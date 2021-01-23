@@ -15,4 +15,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://thyrode_discovery_local:local123@127.0.0.1:${server.port}/eureka/
+      defaultZone: http://tyloo_discovery_local:local123@127.0.0.1:${server.port}/eureka/
