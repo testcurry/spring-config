@@ -42,8 +42,8 @@ spring:
     jedis:
       pool:
         min-idle: 2
-        max-active: 10
         max-idle: 10
+	max-active: 10
 
   jackson:
     default-property-inclusion: non_null
