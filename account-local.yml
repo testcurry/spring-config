@@ -2,7 +2,7 @@ server:
   port: 10003
 
 jwt:
-  key: thyrode
+  key: thyrode-key
   expire: 10
 
 spring:
@@ -28,7 +28,7 @@ spring:
       web-stat-filter:
         enabled: true
         url-pattern: /*
-        profile-enable: true
+        profile-enabled: true
 
       stat-view-servlet:
         enabled: true
@@ -51,8 +51,9 @@ spring:
 eureka:
   instance:
     prefer-ip-address: true
-    lease-expiration-duration-in-seconds: 10
+    
     lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
   client:
     healthcheck:
       enabled: true
