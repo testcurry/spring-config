@@ -47,7 +47,7 @@ mq:
   config:
     exchange: thyrode.executor
     routing-key: thyrode.executor.routing
-    queue: thyrode.executor.queue
+    queue-name: thyrode.executor.queue
 
 eureka:
   instance:
